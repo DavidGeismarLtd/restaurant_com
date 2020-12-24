@@ -5,81 +5,85 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Home</title>
     <link rel="stylesheet" href="/index.css">
   </head>
   <body>
-    <section class="hero">
-      <header id="header">
-        <a id="logo" href="#">logo</a>
-        <nav><a id="menu-icon">&#8801;</a></nav>
-      </header>
-      <header class="hero-header">
-        <h1 class="hero-title">Show how awesome your backstage is !</h1>
-        <p>What happens in your cuisine is magic and rocks. Let your customer know !</p>
+    <div class="container">
 
-      </header>
-      <footer class="hero-footer">
-        <a class="button button-primary" href="#">button one</a>
-        <a class="button" href="#">button two</a>
-      </footer>
-    </section>
-    <section class='features'>
-      <div class="text-and-image">
-        <div class="container-image">
-          <img src="camera_lens.jpg" alt="">
-        </div>
-        <div class="container-text">
-          <h2>Optimal setup</h2>
-          <p>We ve worked very hard for coming up with the best setup to magnify what happens in your kitchen.
-            Right angles, right light, right sound and right equipment to make you shine.
-          </p>
-          <a class="button button-black" href="#">Learn more -></a>
-        </div>
-      </div>
-      <div class="text-and-image">
-        <div class="container-text">
-          <h2>Setup and Live stream to your own twitch channel</h2>
-          <p>You shouldnt let your customer just wait for his food !
-            Make his experience unforgettable by letting him follow what's going on in the kitchen.</p>
-          <a class="button button-black" href="#">Learn more -></a>
-        </div>
-        <div class="container-image">
-          <img src="twitch.jpg" alt="">
-        </div>
-      </div>
-      <div class="text-and-image">
-        <div class="container-image">
-          <img src="restaurant_goals.jpg" alt="">
-        </div>
-        <div class="container-text">
-          <h2>Boost your sales & build a community in the Covid age</h2>
-          <p>Covid massively impacted and changed the food service industry. There is a way to stand out of the crowd and
-            reach your customers. We help you achieve your goals
-          </p>
-          <a class="button button-black" href="#">Learn more -></a>
-        </div>
-      </div>
-    </section>
-    <section class='contact'>
-      <h2>Interested by our service ? Drop us a line and we'll get back to you</h2>
-      <div class="form-container">
-        <form name="contact" method="POST" data-netlify="true">
-          <div class="field">
-            <label>Your Name:</label> <input type="text" name="name" />
-          </div>
-          <div class="field">
-            <label>Your Email:</label> <input type="email" name="email" />
-          </div>
-          <div class="field">
-            <label>Message:</label> <textarea name="message"></textarea>
-          </div>
-          <div class="field">
-            <button class='button button-black submit-btn' type="submit">Send</button>
-          </div>
+      <section class="hero">
+        <header id="header">
+          <a id="logo" href="#">logo</a>
+          <nav><a id="menu-icon">&#8801;</a></nav>
+        </header>
+        <header class="hero-header">
+          <h1 class="hero-title">Show how awesome your backstage is !</h1>
+          <p>What happens in your cuisine is magic and rocks. Let your customer know !</p>
 
-        </form>
-      </div>
-    </section>
+        </header>
+        <footer class="hero-footer">
+          <a class="button button-primary" href="#">button one</a>
+          <a class="button" href="#">button two</a>
+        </footer>
+      </section>
+      <section class='features'>
+        <div class="text-and-image">
+          <div class="container-image">
+            <img src="camera_lens.jpg" alt="">
+          </div>
+          <div class="container-text">
+            <h2>Optimal setup</h2>
+            <p>We ve worked very hard for coming up with the best setup to magnify what happens in your kitchen.
+              Right angles, right light, right sound and right equipment to make you shine.
+            </p>
+            <a class="button button-black" href="#">Learn more -></a>
+          </div>
+        </div>
+        <div class="text-and-image">
+          <div class="container-text">
+            <h2>Setup and Live stream to your own twitch channel</h2>
+            <p>You shouldnt let your customer just wait for his food !
+              Make his experience unforgettable by letting him follow what's going on in the kitchen.</p>
+            <a class="button button-black" href="#">Learn more -></a>
+          </div>
+          <div class="container-image">
+            <img src="twitch.jpg" alt="">
+          </div>
+        </div>
+        <div class="text-and-image">
+          <div class="container-image">
+            <img src="restaurant_goals.jpg" alt="">
+          </div>
+          <div class="container-text">
+            <h2>Boost your sales & build a community in the Covid age</h2>
+            <p>Covid massively impacted and changed the food service industry. There is a way to stand out of the crowd and
+              reach your customers. We help you achieve your goals
+            </p>
+            <a class="button button-black" href="#">Learn more -></a>
+          </div>
+        </div>
+      </section>
+      <section class='contact'>
+        <h2>Interested by our service ? Drop us a line and we'll get back to you</h2>
+        <div class="form-container">
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="field">
+              <label>Your Name:</label> <input type="text" name="name" />
+            </div>
+            <div class="field">
+              <label>Your Email:</label> <input type="email" name="email" />
+            </div>
+            <div class="field">
+              <label>Message:</label> <textarea name="message"></textarea>
+            </div>
+            <div class="field">
+              <button class='button button-black submit-btn' type="submit">Send</button>
+            </div>
+
+          </form>
+        </div>
+      </section>
+   </div>
   </body>
 </html>

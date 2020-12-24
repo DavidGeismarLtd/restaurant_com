@@ -24,6 +24,10 @@ body {
   font-size: 6vh;
 }
 
+.container {
+  width: 100%;
+}
+
 /* // hero */
 
 .hero {
@@ -43,7 +47,7 @@ body {
 .hero-title {
   max-width: 16em;
   margin: 0;
-  font-size: 12vh;
+  font-size: 8vh;
   font-weight: bold;
   line-height: .9;
 }
