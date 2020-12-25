@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'PT Sans Caption',"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-size: 3vh;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  height: 420px;
+}
+
+.post-content {
+  padding-top: 36px;
+  max-width: 1280px;
+  margin: auto;
+}
